@@ -1,0 +1,59 @@
+{
+	"name": "gitbook-plugin-valine",
+	"description": "comment system valine integration into GitBook",
+	"main": "index.js",
+	"version": "0.0.4",
+	"engines": {
+		"gitbook": ">=3.0.0"
+	},
+	"homepage": "https://github.com/kevinkangkang/gitbook-plugin-valine",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/kevinkangkang/gitbook-plugin-valine.git"
+	},
+	"license": "Apache-2.0",
+	"bugs": {
+		"url": "https://github.com/kevinkangkang/gitbook-plugin-valine/issues"
+	},
+	"gitbook": {
+		"properties": {
+			"appId": {
+				"title": "appId",
+				"type": "string"
+			},
+			"appKey": {
+				"title": "appKey",
+				"type": "string"
+			},
+			"placeholder": {
+				"title": "placeholder",
+				"type": "string",
+				"default": "Just go go"
+			},
+			"avatar": {
+				"title": "avatar",
+				"type": "string",
+				"default": ""
+			},
+			"pageSize": {
+				"title": "pageSize",
+				"type": "number",
+				"default": 10
+			},
+			"lang": {
+				"title": "lang",
+				"type": "string",
+				"default": "zh-CN"
+			},
+			"recordIP": {
+				"title": "recordIP",
+				"type": "boolean",
+				"default": false
+			}
+		}
+	},
+	"keywords": [
+		"comment",
+		"valine"
+	]
+}
