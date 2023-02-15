@@ -13,7 +13,7 @@ module.exports = {
 	  var serverURLs = config.serverURLs;
       var str = '<hr/>'
     + '<div id="vcomments"></div>'
-    + '<script src="//unpkg.com/valine/dist/Valine.min.js"></s:cript>'
+    + '<script src="//unpkg.com/valine/dist/Valine.min.js"></script>'
     + '<script>'
       + 'new Valine({'
 	  + 'el: "#vcomments",'
