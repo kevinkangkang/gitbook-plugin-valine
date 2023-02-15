@@ -24,6 +24,7 @@ module.exports = {
 	  + 'meta: ' + meta + ','
 	  + 'pageSize: ' + pageSize + ','
 	  + 'lang: \'' + lang + '\','
+          + 'path: window.location.pathname,'
 	  + 'recordIP: ' + recordIP + ''
       + '})'
     + '</script>';
